@@ -1,0 +1,14 @@
+{
+  "name": "vexiona",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+   "start": "node index.js"
+  },
+  "author": "Nythir",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.6.1"
+  }
+}
