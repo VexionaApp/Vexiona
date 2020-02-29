@@ -1,7 +1,6 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client();
 
-const token = 'NjgyNjQ4MDcyNTk3Mjc0NjM4.Xlq0eg.58qURYmdSkG89nAnZ_079troSQE';
 const PREFIX = '!';
 
 bot.on('ready', () => {
@@ -59,5 +58,3 @@ bot.on('message', message =>{
 
 //THIS MUST BE THIS WAY
 bot.login(process.env.BOT_TOKEN);
-bot.login(token);
-
